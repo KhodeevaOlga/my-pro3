@@ -1,0 +1,112 @@
+
+
+body {
+  background-color: rgba(230, 242, 245);
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.block {
+  background-color: white;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+}
+
+.block__form {
+  display: flex;
+  position: relative;
+}
+
+.block__form-input {
+  display: block;
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  padding: 2px 10px;
+  padding-right: 110px;
+}
+
+.block__form-btn {
+  display: block;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  background-color: #04b4ae;
+  margin: 5px;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.colors {
+  position: absolute;
+  right: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  margin-bottom: 2px;
+}
+
+.todo__checkbox {
+  padding: 15px;
+  border-right: 1px solid rgba(230, 242, 245);
+}
+
+.todo__text {
+  padding: 15px;
+}
+
+.todo__text_strike {
+  text-decoration: line-through;
+}
+
+input[type="radio"] {
+  padding: 0.3em;
+  -webkit-appearance: none;
+  outline: 0.1em solid black;
+  outline-offset: 0.1em;
+  margin: 2px 2px 0px 3px;
+  cursor: pointer;
+}
+
+.red {
+  background-color: #f10056;
+}
+
+.green {
+  background-color: #fa8ef7;
+}
+
+.aqua {
+  background-color: #893bf7;
+}
+
+.yellow {
+  background-color: #71befe;
+}
+
+.blue {
+  background-color: #27f4ff;
+}
+
+.purple {
+  background-color: #fff30b;
+}
+
+input[type="radio"]:checked {
+  display: inline-block;
+  outline: 0.2em solid black;
+}
+.todo__text {
+ color: white;
+}
